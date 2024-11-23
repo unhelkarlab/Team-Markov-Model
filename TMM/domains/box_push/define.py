@@ -1,6 +1,6 @@
 from typing import Tuple
 from enum import Enum
-from TMM.models.mdp.spaces import ActionSpace
+from TMM.models.mdp import ActionSpace
 
 
 class EventType(Enum):

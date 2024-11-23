@@ -8,3 +8,4 @@ from .mdp import (  # noqa: F401
     q_value_from_policy, deterministic_policy_from_q_value,
     softmax_policy_from_q_value)
 from .latent_mdp import LatentMDP  # noqa: F401
+from .spaces import StateSpace, ActionSpace  # noqa: F401

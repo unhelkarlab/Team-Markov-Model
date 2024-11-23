@@ -1,8 +1,7 @@
 from typing import Sequence, Tuple, Union
 import abc
 import numpy as np
-from TMM.models.mdp.spaces import StateSpace
-from TMM.models.mdp import LatentMDP
+from TMM.models.mdp import StateSpace, LatentMDP
 from TMM.domains.box_push import (BoxState, conv_box_state_2_idx,
                                   conv_box_idx_2_state,
                                   get_possible_latent_states)

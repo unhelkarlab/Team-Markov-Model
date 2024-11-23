@@ -156,3 +156,9 @@ class AIAgent_Abstract(SimulatorAgent):
 
   def conv_latent_to_idx(self, latent):
     return self.agent_model.policy_model.conv_latent_to_idx(latent)
+
+  def conv_action_to_idx(self, tup_actions):
+    return self.agent_model.policy_model.conv_action_to_idx(tup_actions)
+
+  def conv_idx_to_action(self, tuple_aidx):
+    return self.agent_model.policy_model.conv_idx_to_action(tuple_aidx)

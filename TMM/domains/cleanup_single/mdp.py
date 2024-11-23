@@ -1,6 +1,5 @@
 import numpy as np
-from TMM.models.mdp.spaces import StateSpace
-from TMM.models.mdp import LatentMDP
+from TMM.models.mdp import StateSpace, LatentMDP
 from TMM.domains.box_push import (BoxState, conv_box_state_2_idx,
                                   AGENT_ACTIONSPACE, EventType,
                                   conv_box_idx_2_state)
