@@ -14,3 +14,15 @@ EXP1_MAP = {
     "wall_dir": [0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1],
     "drops": []
 }
+
+TUTORIAL_MAP = {
+    "x_grid": 5,
+    "y_grid": 5,
+    "a1_init": (4, 1),
+    "a2_init": (4, 3),
+    "boxes": [(0, 0), (0, 4), (2, 4)],
+    "goals": [(4, 2)],
+    "walls": [(1, i + 1) for i in range(3)],
+    "wall_dir": [1 for dummy_i in range(3)],
+    "drops": []
+}
